@@ -54,6 +54,7 @@ Based on the code above, the expected register values were calculated for verifi
 
 ### 3. Actual Simulation Output
 The simulation matches the expected values exactly.
+
 **Console Output ($monitor):**
 
 ![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/Console%20Output.png)
