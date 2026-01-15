@@ -19,7 +19,7 @@ This project implements a **32-bit Single-Cycle RISC-V Processor** in Verilog HD
 
 The processor integrates key datapath components including the ALU, Control Unit, Instruction Memory, and Register File.
 
-**Datapath Diagram:**
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/diagram.jpg)
 
 ### Key Modules
 
@@ -34,6 +34,8 @@ The processor integrates key datapath components including the ALU, Control Unit
 
 The processor supports the following instruction types:
 
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/ISA.png)
+
 ## 📊 Simulation & Verification
 
 The functionality was verified using the following steps:
@@ -42,19 +44,23 @@ The functionality was verified using the following steps:
 
 The following assembly code (and corresponding machine code) was hard-coded into the Instruction Memory:
 
-*Verilog Implementation of Instruction Memory:*
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/Risc-v%20code%20and%20machine%20code.png)
 
 ### 2. Expected Results
 
 Based on the code above, the expected register values were calculated for verification:
 
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/Expected%20Result.png)
+
 ### 3. Actual Simulation Output
-
 The simulation matches the expected values exactly.
-
 **Console Output ($monitor):**
 
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/Console%20Output.png)
+
 **Waveform Analysis:**
+
+![image alt](https://github.com/sufyan4273/RISC-V-Single-Cycle-Processor/blob/00e584b112fb422b1e9673a961b385aa8c1641f8/Documentation/Screenshots/waveform.png)
 
 ## 🚀 How to Run
 
@@ -67,4 +73,3 @@ The simulation matches the expected values exactly.
 ## 👥 Credits
 
 * **Author:** Muhammad Sufyan
-* **Institution:** Ghulam Ishaq Khan Institute of Engineering and Technology
