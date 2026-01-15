@@ -10,11 +10,8 @@ This project implements a **32-bit Single-Cycle RISC-V Processor** in Verilog HD
 ├── Modules/                  # Verilog Source files and Testbenches
 ├── Documentation/            # Project Report and images
 │   ├── Project Report.pdf
-│   └── screenshots/          # Verification screenshots
+│   └── Screenshots/          # Verification screenshots
 └── README.md
-
-```
-
 ## ⚙️ Architecture
 
 The processor integrates key datapath components including the ALU, Control Unit, Instruction Memory, and Register File.
